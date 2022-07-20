@@ -1,0 +1,36 @@
+body{
+  background-color: rgb(179, 209, 105);
+  margin:0;
+  padding:0;
+}
+
+.heading 
+{
+  background-color: rgb(89, 137, 135);
+  padding: 20px;
+  text-align: center;
+}
+.content
+{
+  padding: 40px;
+  margin-bottom: 100px;
+}
+
+.list_heading
+{
+  font-weight: bold;
+  
+}
+.main
+{
+  float: left;
+  max-width: 50%;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.eend
+{
+  background-color: rgb(89, 137, 135);
+  padding: 50px;
+  text-align: center;
+}
