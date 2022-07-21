@@ -1,0 +1,22 @@
+body
+{
+    background-image: url("../image/main.png");
+}
+header
+{
+   text-align: center;
+   font-size: 40px;
+}
+.photo
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+    td {
+        padding: 0px 130px 0px;
+      }
+th
+{
+    font-size: 30px;
+}

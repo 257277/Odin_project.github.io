@@ -1,0 +1,51 @@
+body
+{
+    background-color:rgb(230, 230, 138);
+    font-family:Palatino ;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+header{
+   text-align: center;
+}
+h1
+{
+    font-size: 50px;
+}
+h3
+{
+    font-size: 25px;
+}
+img
+{
+    width: 85%;
+    height: 350px;
+    object-fit:cover;
+    
+}
+.container
+{
+    max-width: 80%;
+    margin-left: 150px;
+}
+.ingredient
+{
+    max-width: 30%;
+    float: left;
+   
+}
+.direction
+{
+    max-width: 65%;
+    float: right;
+    
+   
+}
+.nutrition
+{
+    clear: both;
+    text-align: center;
+}
