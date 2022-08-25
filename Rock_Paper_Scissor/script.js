@@ -43,13 +43,16 @@ function refresh() {
 
 function result() {
     if (playerscoreboard > computerscoreboard) {
-        document.getElementById("resultdisplay").innerHTML = "PLAYER WIN......";
+        //  document.getElementById("resultdisplay").innerHTML = "..........  PLAYER WIN  ..........";
+        alert("........... PLAYER WIN ............")
     }
     else if (computerscoreboard > playerscoreboard) {
-        document.getElementById("resultdisplay").innerHTML = "COMPUTER WIN......";
+        // document.getElementById("resultdisplay").innerHTML = "..........  COMPUTER WIN  ..........";
+        alert("..........  COMPUTER WIN  ..........");
     }
     else {
-        document.getElementById("resultdisplay").innerHTML = "DRAW.....";
+        document.getElementById("resultdisplay").innerHTML = "..........  DRAW  ..........";
+        alert("..........  DRAW  ..........");
     }
 }
 
@@ -61,7 +64,7 @@ function rock_click() {
     score();
     if (count >= 5) {
         result();
-        window.setInterval('refresh()', 1000);
+        window.setInterval('refresh()');
     }
 }
 
@@ -73,7 +76,7 @@ function paper_click() {
     score();
     if (count >= 5) {
         result();
-        window.setInterval('refresh()', 1000);
+        window.setInterval('refresh()');
     }
 }
 
@@ -85,7 +88,6 @@ function scissor_click() {
     score();
     if (count >= 5) {
         result();
-        window.setInterval('refresh()', 1000);
+        window.setInterval('refresh()');
     }
 }
-
